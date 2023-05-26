@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.iconbentrai i:first-child{
+    margin-right: 16px;
+}
+.iconbentrai{
+    font-size: 14px;
+}
+#header-1{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+    border-bottom: 1px solid rgba(105, 109, 112,0.6);
+}
+/* CUộn chuột bám dính */
+  
+#header-2 {
+position: relative;
+z-index: 1;
+}
+
+
+#header-2.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header-2{
+    background-color: #fff;
+    padding: 0 30px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(105, 109, 112,0.6);
+}
+#header-2-right{
+    display: flex;
+    color: #69727c;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 20px;
+    text-transform: uppercase;
+    height: 100%;
+}
+#header-2-right a{
+    padding: 0 14px;
+    text-align: center;
+    color: #3A3F45;
+    font-weight: 700;
+    text-decoration: none;
+}
+.haiNutHeader .btn{
+    width: 129px;
+    height: 31px;
+    border-radius: 30px;
+    color: #2f353b;
+    background-color: #fff;
+    border: 1px solid rgba(105, 109, 112,0.6);
+    margin-right: 18px;
+    padding-right: 19px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn i{
+    margin-right: 10px;
+}
+.haiNutHeader{
+    display: flex;
+    align-items: center;
+}
+.ulBenPhai{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+}
+.ulBenPhai li:hover a{
+    color: #19b1ff !important;
+}
+.btn:hover{
+    background-color: #2f353b;
+    color: #ffff !important;
+}
+#menuBenTrai{
+    width: 305px;
+}
+#container{
+    margin-top: 30px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.menuList{
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.menu{
+    margin-bottom: 45px;
+}
+.menu h4{
+    font-weight: 500;
+    border-left: 5px solid #19b1ff;
+    padding-left: 18px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.menuList li{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(105, 109, 112,0.3);
+    display: flex;
+    align-items: center;
+}
+.menuList li a {
+    text-decoration: none;
+    color:#2f353b;
+}
+.menuList li:hover a{
+    color: #19b1ff;
+}
+.menuList li::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #19b1ff;
+    margin-right: 12px;
+}
+#menuBenPhai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 888px;
+}
+#menuBenPhai .title{
+   text-align: center;
+}
+#menuBenPhai .title h2{
+
+    font-size: 22px;
+    color: #19b1ff;
+}
+.gach{
+    width: 128px;
+    height: 3px;
+    background-color: #19b1ff;
+    position: relative;    
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+.soDu{
+    text-align: center;
+    line-height: 47px;
+    width: 286px;
+    height: 47px;
+    font-size: 18px;
+    background-color: #19b1ff;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.nhaMang{
+    width: 282px;
+    height: 32px;
+    padding: 6px 12px;
+}
+#container .formNapThe{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+.formGroup{
+    margin-left: -100px;
+}
+.formGroup label{
+    min-width: 100px;
+    height: 49px;
+    text-align: right;
+    padding: 5px 0px 0;
+    font-size: 15px;
+    color: #5c6873;
+    font-weight: 700;
+}
+.formNapThe .btn{
+    background-color: #e7505a;
+    color: #fff;
+    opacity: 0.9;
+    width: 282px;
+    height: 34px;
+    border-radius: 12px;
+}
+.formNapThe .btn:hover{
+    opacity: 1;
+}
+.ronaldo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thongBaoChuY{
+    background-color: #bbe7fe;
+    font-weight: 300px;
+    width: 888px;
+    height: 177px;
+    padding: 20px 15px;
+    margin-top: 147px;
+    margin-bottom: 30px;
+}
+.thongBaoChuY span{
+    color: #e7505a;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.thongBaoChuY p{
+    text-align: center;
+    border-bottom: 10px;
+}
+.lichSuNap{
+    background-color: #19b1ff;
+    width: 888px;
+    height: 55px;
+    color: #fff;
+}
+.lichSuNap p{
+    padding-top: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+}
+#anhQuangCao{
+    padding: 20px 15px;
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 308px;
+    background-color: #2f353b;
+    padding: 30px 0px 0 24px;
+    text-align: left;
+}
+#footer li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #d8d8d8;
+}
+#footer a:hover{
+    color: #0b93a3;
+}
+.thongTin, .chiTietLienHe{
+    width: 368px;
+    color: #d8d8d8;
+}
+.thongTin span{
+    color: #0b93a3;
+}
+.iconFooter{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.iconFooter i:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.chiTietLienHe i{
+    font-size: 40px;
+}
+.thongTin p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 30px 0;
+    display: block;
+}
+.thongTin h3, .chiTietLienHe h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #d8d8d8;
+}
+.thongTin li {
+        list-style: none;
+        padding: 5px 0;
+        border-bottom: 1px solid #d8d8d8;
+}
+.chiTietLienHe li{
+    list-style: none;
+    padding: 5px 0;
+}
+.chiTietLienHe {
+    margin-left: 40px;
+}
+.thongBaoMuaNick{
+    padding: 20px 15px 20px 15px;
+    background: #bbe7fe;
+    text-align: left;
+    font-weight: 700;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.btn ul li{
+    display: inline-block;
+}
+.btn{
+    background: #ddd;
+    height: 50px; 
+     padding: 20px;
+}
+.btn ul li a{
+    color: #000;
+    text-decoration: none;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.sub-main{
+    display: none;
+    padding-top: 30px;
+}
+.btn li{
+    position: relative;
+    
+}
+.btn:focus-within .sub-main{
+    display: block;
+}
+.btn .sub-main{
+    position: absolute;
+    top: 20;
+    right: 0;
+    padding-right: 60px;
+}
+.btn .sub-main li {
+    display: block;
+    background: #897;
+    width: 250px;
+    padding: 20px 0;
+}
+.btn .sub-main li:hover {
+    opacity: 0.5;
+}

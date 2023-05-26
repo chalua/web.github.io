@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="napThe.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header-1">
+        <div class="iconbentrai">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="chuBenPhai">
+            <span>Hotline: <a class="sdtHotLine" href="#">0396498015 (8h - 22h)</a></span>
+        </div>
+    </div>
+    <div id="header-2" >
+        <a href="main.html"><img src="./anhCuaWeb/logoNamNhaQuang.jpg" alt="" style="width:200px; height:50px;"></a>
+        <div id="header-2-right">       
+            <ul class="ulBenPhai">
+                <li><a href="main.html">Trang chủ</a></li>
+                <li><a href="modal2.html">Nạp tiền</a></li>
+                <li><a href="main.html">Dịch vụ</a></li>
+                <li><a href="main.html">Nick game</a></li>
+                <li><a href="main.html">Tải hack mod</a></li>
+            </ul>
+            <div class="haiNutHeader">
+                <button class="btn" onclick="dangnhap()"><i class="fa-regular fa-user"></i>Đăng nhập</button>
+                <button class="btn" onclick="dangky()"><i class="fa-solid fa-key"></i>Đăng ký</button>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="menuBenTrai">
+            <div class="menu">
+                <h4>MENU TÀI KHOẢN</h4>
+                <ul class="menuList">
+                    <li><a href="">Thông tin tài khoản</a></li>
+                    <li><a href="">Nạp tiền thẻ cào</a></li>
+                    <li><a href="">Nạp tiền ATM - Ví điện tử</a></li>
+                    <li><a href="">Lịch sử giao dịch</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <h4>MENU GIAO DỊCH</h4>
+                <ul class="menuList">
+                    <li><a href="">Lịch sử vận may</a></li>
+                    <li><a href="">Tài khoản đã mua</a></li>
+                    <li><a href="">Tài khoản trả góp</a></li>
+                    <li><a href="">Dịch vụ đã thuê</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="menuBenPhai">
+            <div class="title"><h2>NẠP TIỀN THẺ CÀO</h2></div>
+            <div class="gach"></div>
+            <div class="soDu">SỐ DƯ 0 VND</div>
+            <div class="formNapThe">
+                <form action="">
+                    <div class="formGroup">
+                        <label for="">Nhà Mạng :</label>
+                        <select name="" class="nhaMang">
+                            <option value="nhaMang">Chọn Nhà Mạng</option>
+                            <option value="viettel">Viettel</option>
+                            <option value="vinaphone">Vinaphone</option>
+                            <option value="mobiphone">Mobiphone</option>
+                        </select>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="">Mệnh giá :</label>
+                        <select name="" class="nhaMang">
+                            <option value="nhaMang">Chọn Nhà Mạng</option>
+                            <option value="viettel">Viettel</option>
+                            <option value="vinaphone">Vinaphone</option>
+                            <option value="mobiphone">Mobiphone</option>
+                        </select>
+                    </div>
+
+                    <div class="formGroup">
+                        <label for="">Seri :</label>
+                        <input class="nhaMang" type="text" placeholder="Nhập mã serial nằm sau thẻ">
+                    </div>
+                    <div class="formGroup">
+                        <label for="">Mã thẻ :</label>
+                        <input class="nhaMang" type="text" placeholder="Nhập mã số sau lớp bạc mỏng">
+                    </div>
+                    <div class="formGroup">
+                       <label for="" class="captcha"></label>
+                       <span class="captcha"></span>
+                    </div>
+                    <div class="formGroup">
+                        <label for="">Capcha :</label>
+                        <input class="nhaMang" type="text" placeholder="Nhập mã capcha">
+                    </div>
+                    <div>
+                        <!-- <button class="btn" onclick="dangky()">Đăng nhập để nạp thẻ</button> -->
+                        <a href="modal2.html"><input type="button" class="btn" value="Đăng Nhập Để Nạp Thẻ"></a>
+                    </div>
+                </form>
+            </div>
+            <div class="thongBaoChuY">
+                <p><span>NẠP THẺ KHÔNG CHIẾT KHẤU <br>
+                    nạp 10k được 10k ...100k được 100k</span></p>
+                <p><span>SAI MỆNH GIÁ -50% THẺ</span></p>
+            </div>
+            <div class="lichSuNap">
+                <p>LỊCH SỬ NẠP THẺ</p>
+            </div>
+        </div>
+    </div>
+    <div id="anhQuangCao">
+        <img src="./anhCuaWeb/adskoi.jpg" alt="" style="width: 100%;">
+    </div>
+    <div id="footer">
+            <div class="thongTin">
+                    <h3>VỀ <span>SIUUUUUUU.COM</span></h3>
+                    <p class="nd">Hệ thống mua bán nick game tự động uy tín, nhanh gọn, an toàn tuyệt đối.</p>
+                    <div class="gioithieu">
+                        <ul>
+                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li><a href="#">ĐIỀU KHOẢN</a></li>
+                            <li><a href="#">UY TÍN CỦA SHOP</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="chiTietLienHe">
+                <h3>CHI TIẾT LIÊN HỆ</h3>
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-square-facebook" style="margin-right: 30px;"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#">Hotline: 0396498015 (8h-22h)</a></li>
+                        <li><a href="#">Email:</a></li>
+                        <li>Web được phát triển bởi <a href="" style="color: red; font-weight:600">Thuegameshop.vn</a></li>
+                    </ul>
+            </div>
+    </div>
+    <script src="vd.js"></script>
+    <script>
+const header2 = document.querySelector('#header-2');
+const header1Height = document.querySelector('#header-1').offsetHeight;
+
+window.addEventListener('scroll', () => {
+  if (document.documentElement.scrollTop) {
+    header2.classList.add('sticky');
+  } else {
+    header2.classList.remove('sticky');
+  }
+});
+
+    </script>
+</body>
+
+</html>

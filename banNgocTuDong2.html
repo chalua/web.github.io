@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="banNgocTuDong.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header-1">
+        <div class="iconbentrai">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="chuBenPhai">
+            <span>Hotline: <a class="sdtHotLine" href="#">0396498015 (8h - 22h)</a></span>
+        </div>
+    </div>
+    <div id="header-2">
+        <a href="main.html"><img src="logoNamNhaQuang.jpg" alt="" style="width:200px; height:50px;"></a>
+        <div id="header-2-right">
+            <ul class="ulBenPhai">
+                <li><a href="main1.html">Trang chủ</a></li>
+                <li><a href="">Nạp tiền</a></li>
+                <li><a href="">Dịch vụ</a></li>
+                <li><a href="">Nick game</a></li>
+                <li><a href="">Tải hack mod</a></li>
+            </ul>
+            <div class="haiNutHeader">
+                <button class="btn" id="tenDangNhap" onclick="nhap()"><i class="fa-regular fa-user" id="icon">
+                    <ul class="sub-main">
+                        <li><a href="#" id="ten"></a></li>
+                        <a href="main.html"><li>Đăng Xuất</li></a>
+                    </ul>
+                </i></button>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <div id="header-3">
+            <h2 style="font-weight: 700;">HỆ THỐNG BÁN NGỌC TỰ ĐỘNG</h2>
+            <p id="bottom"></p>
+        </div>
+        <div id="body-1">
+            <p style="margin: 0px 0px 10px;"></p>
+            <p><u id="col-1" style="font-size: 24px; font-weight: 700;">Ngọc có bán từ 30k trở lên nhé ae</u></p>
+            <p><u id="col-2" style="font-size: 24px; font-weight: 700;">Cực Sốc: Ngọc vân TẾT 100k 800 ngọc ...100k 950 ngọc ví ĐỦ 10
+            sever</u> <span style="color:#e74c3c;font-weight: 700;font-size: 24px;">H</span>oạt động 24/24 tự động 100%</p>
+            <p>Ngọc sạch mua đảm bảo an toàn 100% không sợ ad giao dịch nhanh gọn và cực uy tín</p>
+            <span id="col-3">
+                <span>có bán 50k = 400 ngọc ...ae tích cực mua ngọc 10 sever ủng hộ tuiiii<br>Ngọc mua Qua
+                ví hoặc atm thì 100k 950 đồng giá 10 sever pm góc phải</span>
+                </span>
+            </span>
+            <span id="col-4">
+                <span>NGỌC CHẤT LƯỢNG UY TÍN 100% MUA KHÔNG SỢ ADMIN KHÓA NICK</span>
+            </span>
+            <span id="col-5">
+                <span>Ngọc bán trên 50K</span>
+            </span>
+            <span id="col-6">
+                <span>Điền đúng tài khoản mật khẩu, KHÔNG viết hoa</span><br>
+                <span>Nhập tài khoản mật khẩu game, KHÔNG PHẢI tài khoản mật khẩu shop</span><br>
+                <span>Off gane 1 phút trước khi đặt mua</span><br>
+                <span>Không vào nick khi mua</span><br>
+                <span>Đứng sẵn ở siêu thị</span><br>
+                <span>Acc có sẵn 1 ngọc</span><br>
+                <span>Không full hành trang</span><br>
+                <span>Không mật khẩu rương</span><br>
+            </span>
+            <span id="col-7">
+               <span  style=" color: #8e44ad;background-color: #ffffff;">KHI THẤY THÀNH CÔNG VUI LÒNG ĐỢI TẦM 2P SAU ĐÓ HẴNG VÀO GAME < TRÁNH KẸT ĐỒ KÍ GỬI NGỌC ></span>
+            </span>
+            <span id="col-8">
+                <span>Mua xong đến shop ký gửi nhận ngọc</span>
+            </span>
+            <span id="col-9">
+                <span>Thất bại thì đợi 10 phút sau, shop tự hoàn tiền, bạn đặt lệnh mua lại</span>
+            </span>
+        </div>
+        <form  name="F1" action="_post">
+            <table>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><div class="soDu">SỐ DƯ 0 VND</div></td>
+                </tr>
+                <tr>
+                    <td><label for="">Vũ trụ: </label></td>
+                    <td>
+                       <select name="" id="vuTru1" style="width: 250px; padding: 6px 12px;border-radius: 5px; margin: 5px;border: 2px solid">
+                            <option value="">Chọn vũ trụ</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Tài khoản: </label></td>
+                    <td><input type="text" placeholder="Nhập tài khoản game" id="nhapTaiKhoan"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Mật khẩu: </label></td>
+                    <td><input type="text" placeholder="Nhập mật khẩu" id="psw"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Số tiền: </label></td>
+                    <td><input type="text" placeholder="Nhập số tiền bằng số" id="tien"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Hệ số: </label></td>
+                    <td style="text-align: left;"><span style="margin-left: 20px; color: red; font-size: 15px;">7.8</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Số ngọc nhận: </label></td>
+                    <td><p style="border: 2px solid; height: 40px; width: 248px; margin-left: auto; margin-right: 7px; border-radius: 5px; cursor: not-allowed;" id="nhan"></p></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label></td>
+                    <td><p class="captcha" style="border: 2px solid"></p></td>
+                </tr>
+                <tr>
+                    <td><label for="">Captcha: </label></td>
+                    <td><input type="text" placeholder="Nhập mã captcha trên"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Giftcode: </label></td>
+                    <td><input type="text" placeholder="Nhập mã Giftcode"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" id="muaVang" onclick="xuatThongTin()" value="Mua Ngọc"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="body-2">
+        <p>LỊCH SỬ MUA NGỌC</p>
+        <table id="lichSu">
+            <tr>
+                <th>vũ trụ</th>
+                <th>tài khoản</th>
+                <th>số tiền</th>
+                <th>số ngọc nhận</th>
+            </tr>
+            <tr>
+                <td id="vuTru"></td>
+                <td id="taiKhoan"></td>
+                <td id="soTien"></td>
+                <td id="soNgoc"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="anhQuangCao">
+        <img src="./anhCuaWeb/adskoi.jpg" alt="" style="width: 100%;">
+    </div>
+    <div id="footer">
+        <div class="thongTin">
+                <h3>VỀ <span>SIUUUUUUU.COM</span></h3>
+                <p class="nd">Hệ thống mua bán nick game tự động uy tín, nhanh gọn, an toàn tuyệt đối.</p>
+                <div class="gioithieu">
+                    <ul>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">ĐIỀU KHOẢN</a></li>
+                        <li><a href="#">UY TÍN CỦA SHOP</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="chiTietLienHe">
+            <h3>CHI TIẾT LIÊN HỆ</h3>
+                <div class="iconFooter">
+                    <i class="fa-brands fa-square-facebook" style="margin-right: 30px;"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <ul>
+                    <li><a href="#">Hotline: 0396498015 (8h-22h)</a></li>
+                    <li><a href="#">Email:</a></li>
+                    <li>Web được phát triển bởi <a href="" style="color: red; font-weight:600">Thuegameshop.vn</a></li>
+                </ul>
+        </div>
+</div>
+</body>
+<script src="banNgocTuDong.js"></script>
+<script>
+    const header2 = document.querySelector('#header-2');
+    const header1Height = document.querySelector('#header-1').offsetHeight;
+
+    window.addEventListener('scroll', () => {
+        if (document.documentElement.scrollTop) {
+            header2.classList.add('sticky');
+        } else {
+            header2.classList.remove('sticky');
+        }
+    });
+
+    function xuatThongTin(){
+        document.getElementById("vuTru").innerHTML = document.forms["F1"]["vuTru1"].value;
+        document.getElementById("taiKhoan").innerHTML = document.forms["F1"]["nhapTaiKhoan"].value;
+        document.getElementById("soTien").innerHTML = document.forms["F1"]["tien"].value;
+        document.getElementById("soNgoc").innerHTML = (document.forms["F1"]["tien"].value * 7.8)/100;
+    }
+    function nhap(){
+  var ten = sessionStorage.getItem('name');
+  document.getElementById('ten').innerHTML = ten;
+    
+ }
+</script>
+
+</html>

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header-1">
+        <div class="iconbentrai">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="chuBenPhai">
+            <span>Hotline: <a class="sdtHotLine" href="#">0396498015 (8h - 22h)</a></span>
+        </div>
+    </div>
+    <div id="header-2" >
+        <a href="main1.html"><img src="./anhCuaWeb/logoNamNhaQuang.jpg" alt="" style="width:200px; height:50px;"></a>
+        <div id="header-2-right">       
+            <ul class="ulBenPhai">
+                <li><a href="main1.html">Trang chủ</a></li>
+                <li><a href="napThe1.html">Nạp tiền</a></li>
+                <li><a href="#dichVuGame">Dịch vụ</a></li>
+                <li><a href="#nickGame">Nick game</a></li>
+                <li><a href="">Tải hack mod</a></li>
+            </ul>
+            <div class="haiNutHeader">
+                <button class="btn myElement" id="tenDangNhap" onclick="nhap()" ><i class="fa-regular fa-user" >
+                    <ul class="sub-main">
+                        <li><a href="#" id="ten"></a></li>
+                        <a href="main.html"><li>Đăng Xuất</li></a>
+                    </ul>
+                </i></button>
+            </div>
+        </div>
+    </div>
+    <div id="Listdv">
+        <div class="container">
+            <div class="row">
+                <div class="headingcol" style="margin-bottom: 20px; margin-top: 40px; text-align: center;">
+                    <h2 style="text-align: center;">MENU GIAO DỊCH</h2>
+                    <div style="width: 100px; height: 1px; margin: 20px auto; border-bottom: 4px solid #e90606;">
+    
+                    </div>
+                    <div class="rowgamelist">
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="withPad1" style="border:  0px solid #cccccc;">
+                                <a href="napThe1.html" title="">
+                                    <div class="news_image">
+                                        <img src="/anhCuaWeb/MENU_GD/NapThe.png">
+                                    </div>
+                                </a>
+                                <div class="news_title">
+                                    <a href="napThe1.html" title="">NẠP THẺ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="withPad1" style="border:  0px solid #cccccc;">
+                                <a href="" title="">
+                                    <div class="news_image">
+                                        <img src="/anhCuaWeb/MENU_GD/TaiKhoan.png">
+                                    </div>
+                                </a>
+                                <div class="news_title">
+                                    <a href="" title="">TÀI KHOẢN</a>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="withPad1" style="border:  0px solid #cccccc;">
+                                <a href="#dichVuGame" title="">
+                                    <div class="news_image">
+                                        <img src="/anhCuaWeb/MENU_GD/DichVu.png">
+                                    </div>
+                                </a>
+                                <div class="news_title">
+                                    <a href="#dichVuGame" title="">DỊCH VỤ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="withPad1" style="border:  0px solid #cccccc;">
+                                <a href="#vongQuay" title="">
+                                    <div class="news_image">
+                                        <img src="/anhCuaWeb/MENU_GD/NickRandom.png">
+                                    </div>
+                                </a>
+                                <div class="news_title">
+                                    <a href="#vongQuay" title="">VÒNG QUAY MAY MẮN</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        </div>
+
+        
+    </div>
+    <div class="Listdv2">
+        <div class="container">
+            <div class="row" id="nickGame">
+                <div class="headingcol" style="margin-bottom: 20px; margin-top: 40px; text-align: center;">
+                    <h2 style="text-align: center;">DANH MỤC GAME</h2>
+                    <div style="width: 100px; height: 1px; margin: 20px auto; border-bottom: 4px solid #e90606;">
+    
+                    </div>
+                </div>
+                <div class="rowgamelist">
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/NRO_SOSINH.jpg" alt="SƠ SINH">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title=""> NICK SƠ SINH + WIN DOANH TRẠI + ZIN</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 3242</p>
+                                <p>Đã bán: 60277</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="nickTamTrung.html" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/NRO_TAMTRUNG.jpg" alt="TẦM TRUNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="nickTamTrung.html" title=""> NGỌC RỒNG NICK TẦM TRUNG</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 1011</p>
+                                <p>Đã bán: 40405</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="nickTamTrung1.html" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/FF_NORMAL.jpg" alt="THƯỜNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title=""> FREE FIRE ONLINE</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 230</p>
+                                <p>Đã bán: 6529</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/NRO_ITEM.jpg" alt="SHOP VẬT PHẨM NRO">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title=""> SHOP VẬT PHẨM</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 731</p>
+                                <p>Đã bán: 18901</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/LQM_NORMAL.jpg" alt="BÌNH THƯỜNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title=""> LIÊN QUÂN MOBILE</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 446</p>
+                                <p>Đã bán: 2142</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/DanhMuc_Game/LMTC_NORMAL.jpg" alt="LIÊN MINH TỐC CHIẾN">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title=""> LIÊN MINH TỐC CHIẾN</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Số tài khoản: 15</p>
+                                <p>Đã bán: 97</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="Listdv3">
+        <div class="container">
+            <div class="row" id="vongQuay">
+                <div class="headingcol" style="margin-bottom: 20px; margin-top: 40px; text-align: center;">
+                    <h2 style="text-align: center;">THỬ VẬN MAY</h2>
+                    <div style="width: 100px; height: 1px; margin: 20px auto; border-bottom: 4px solid #e90606;">
+
+                    </div>
+                </div>
+                <div class="rowgamelist">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Thu_Van_May/nhapnickpro.jpg" alt="NHẬP NICK NGỌC RỒNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title="">NHẬP NICK NGỌC RỒNG</a>
+                            </div>
+                            <div class="news_description">
+
+                                <p>Đã tham gia: 777</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Thu_Van_May/LK_NRO.jpg" alt="RANDOM NGỌC RỒNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title="">RANDOM NGỌC RỒNG</a>
+                            </div>
+                            <div class="news_description">
+
+                                <p>Đã tham gia: 3011</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb//Thu_Van_May/THU-VAN-MAY-NGOC-RONG-VIP-3-PNG.gif" alt="RAMDOM NGỌC RỒNG TẦM TRUNG VÍP">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title="">RAMDOM NGỌC RỒNG TẦM TRUNG</a>
+                            </div>
+                            <div class="news_description">
+
+                                <p>Đã tham gia: 349</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view">
+                                                XEM THÊM
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="Listdv4">
+        <div class="container">
+            <div class="row" id="dichVuGame">
+                <div class="headingcol" style="margin-bottom: 20px; margin-top: 40px; text-align: center;">
+                    <h2 style="text-align: center;">DỊCH VỤ GAME</h2>
+                    <div style="width: 100px; height: 1px; margin: 20px auto; border-bottom: 4px solid #e90606;">
+    
+                    </div>
+                </div>
+                <div class="rowgamelist">
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="banVangTuDong1.html" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Dichvu_Game/banvang.png" alt="BÁN VÀNG TỰ ĐỘNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="banVangTuDong1.html" title="">BÁN VÀNG TỰ ĐỘNG</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Tổng giao dịch: 136445</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="banVangTuDong1.html" title="">
+                                            <div class="view1">MUA NGAY</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="banNgocTuDong2.html" title="">
+                                <div class="news_image">
+                                    <img src="anhCuaWeb/Dichvu_Game/banngoc.png" alt="BÁN NGỌC TỰ ĐỘNG">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="banNgocTuDong2.html" title="">BÁN NGỌC TỰ ĐỘNG</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Tổng giao dịch: 125417</p>
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="banNgocTuDong2.html" title="">
+                                            <div class="view1">MUA NGAY</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-6">
+                       <div class="withPad">
+                                <a href="" title="">
+                                    <div class="news_image">
+                                        <img src="/anhCuaWeb/Dichvu_Game/NRO_SDT.jpg" alt="SĂN ĐỆ TỬ">
+                                    </div>
+                                </a>
+                                <div class="news_title">
+                                    <a href="" title="">SĂN ĐỆ TỬ</a>
+                                </div>
+                                <div class="news_description">
+                                    <p>Tổng giao dịch: 2509</p>
+                                    
+                                </div>
+                                <div class="a-more">
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                            <a href="" title="">
+                                                <div class="view1">XEM THÊM</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="upBiKip1.html" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Dichvu_Game/NRO_UBK.png" alt="ÚP BÍ KIẾP">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="upBiKip1.html" title="">ÚP BÍ KIẾP</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Tổng giao dịch: 105</p>
+                                
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="upBiKip1.html" title="">
+                                            <div class="view1">XEM THÊM</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Dichvu_Game/NRO_LNV.jpg" alt="LÀM NHIỆM VỤ">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title="">LÀM NHIỆM VỤ</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Tổng giao dịch: 3065</p>
+                                
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view1">XEM THÊM</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <div class="withPad">
+                            <a href="" title="">
+                                <div class="news_image">
+                                    <img src="/anhCuaWeb/Dichvu_Game/NRO_USMDT.png" alt="UP SỨC MẠNH ĐỆ TỬ">
+                                </div>
+                            </a>
+                            <div class="news_title">
+                                <a href="" title="">UP SỨC MẠNH ĐỆ TỬ</a>
+                            </div>
+                            <div class="news_description">
+                                <p>Tổng giao dịch: 222</p>
+                                
+                            </div>
+                            <div class="a-more">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                                        <a href="" title="">
+                                            <div class="view1">XEM THÊM</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <div id="anhQuangCao">
+        <img src="./anhCuaWeb/adskoi.jpg" alt="" style="width: 100%">
+    </div>
+
+    <div id="footer">
+            <div class="thongTin">
+                    <h3>VỀ <span>SIUUUUUUU.COM</span></h3>
+                    <p class="nd">Hệ thống mua bán nick game tự động uy tín, nhanh gọn, an toàn tuyệt đối.</p>
+                    <div class="gioithieu">
+                        <ul>
+                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li><a href="#">ĐIỀU KHOẢN</a></li>
+                            <li><a href="#">UY TÍN CỦA SHOP</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="chiTietLienHe">
+                <h3>CHI TIẾT LIÊN HỆ</h3>
+                    <div class="iconFooter">
+                        <i class="fa-brands fa-square-facebook" style="margin-right: 30px;"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#">Hotline: 0396498015 (8h-22h)</a></li>
+                        <li><a href="#">Email:</a></li>
+                        <li>Web được phát triển bởi <a href="" style="color: red; font-weight:600">Thuegameshop.vn</a></li>
+                    </ul>
+            </div>
+    </div>
+    <script src="vd1.js"></script>
+    <script>
+const header2 = document.querySelector('#header-2');
+const header1Height = document.querySelector('#header-1').offsetHeight;
+
+window.addEventListener('scroll', () => {
+  if (document.documentElement.scrollTop) {
+    header2.classList.add('sticky');
+  } else {
+    header2.classList.remove('sticky');
+  }
+});
+
+    </script>
+</body>
+
+</html>
